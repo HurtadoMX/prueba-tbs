@@ -108,10 +108,7 @@ const FormNip = ({radio, setRadio, radio2, setRadio2}) => {
         // else{
         //     alert("todo bien")
         // }
-        else{
-            alert("muy bien")
-            return setNipError(false)
-        }
+      
         
     }
   
@@ -140,7 +137,7 @@ const FormNip = ({radio, setRadio, radio2, setRadio2}) => {
                 }),
                 setNip(e.target.value)
             )}   
-            value={nip} className={setNipError === false ? 'inputValidado' : 'inputInvalido'} type="text" name="NIP" />
+            value={nip} className={setNipError === false ? 'inputValidado' : 'inputInvalido'} type="text" name="Nip" />
         </label >
         <label htmlFor="" className='labelForm'>
             Nombre
@@ -188,7 +185,7 @@ const FormNip = ({radio, setRadio, radio2, setRadio2}) => {
                 }),
                 setCorreo(e.target.value)
             )}  
-            value={correo} className={setCelularError === false ? 'inputValidado' : 'inputInvalido'} placeholder='Correo Electronico' type="text" name="CorreoElectronico" />
+            value={correo} className={setCelularError === false ? 'inputValidado' : 'inputInvalido'} placeholder='Correo Electronico' type="text" name="Correo" />
         </label>
         <label htmlFor="" className='labelForm'>
             RFC
@@ -200,7 +197,7 @@ const FormNip = ({radio, setRadio, radio2, setRadio2}) => {
                 }),
                 setRfc(e.target.value)
             )}  
-            value={rfc} className={setRfcError === false ? 'inputValidado' : 'inputInvalido'} placeholder='RFC' type="text" name="RFC" />
+            value={rfc} className={setRfcError === false ? 'inputValidado' : 'inputInvalido'} placeholder='RFC' type="text" name="Rfc" />
         </label>
         <br />
         {/* <input type="submit" /> */}

@@ -1,0 +1,107 @@
+*{
+    font-family: Roboto;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: brown;
+}
+
+.container{
+    height: 100vh;
+}
+
+.Formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerForm{
+    box-shadow: 2px 0px 19px 6px rgba(0, 0, 0, .75);
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormCurpContainer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormNipContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelForm{
+    padding: 10px 0 0 0;
+    width: 30vw;
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    
+}
+
+.headerFomContainer{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.DatosUsuarioContainer{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    color: #fff;
+    font-weight: 600;
+}
+
+.advertenciaContainer{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: aliceblue;
+    color: #000;
+    font-weight: 600;
+}
+
+.obligatoriosContainer{
+    color: brown;
+}
+
+.FormulariosJuntos{
+    display: flex;
+}
+
+.inputRadio{
+    display: flex;
+    justify-content: center;
+}
+
+.inputValidado{
+    border: 1px solid green;
+}
+
+.inputInvalido{
+    border: 1px solid red;
+}
+
+
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    visibility: hidden;
+}
